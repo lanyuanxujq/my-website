@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <NavBar brandName="My Website" />
-      <Hero name="Your Name" title="Full Stack Developer" description="Building digital experiences with modern technologies.">
+      <Hero name="付经民" title="江西博微软件设计师" description="专注软件设计与开发领域，拥有丰富的全栈开发经验。擅长使用现代前端技术栈（React、TypeScript、Tailwind CSS）构建高性能、用户体验优秀的 Web 应用。">
         <ParticleCanvas theme={theme} />
       </Hero>
       <ProjectsSection />

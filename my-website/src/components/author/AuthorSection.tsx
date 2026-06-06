@@ -21,7 +21,7 @@ export function AuthorSection() {
             {/* Left: Photo */}
             <div className="flex justify-center">
               <AuthorPhoto
-                src="/author-photo.jpg"
+                src="https://n.sinaimg.cn/sinacn10104/57/w700h957/20190610/6f7a-hyeztys1836771.jpg"
                 alt="付经民 - 江西博微软件设计师"
                 size="lg"
               />
