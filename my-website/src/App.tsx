@@ -3,6 +3,7 @@ import { Hero } from './components/hero/Hero';
 import { ParticleCanvas } from './components/hero/ParticleCanvas';
 import { NavBar } from './components/navigation/NavBar';
 import { ProjectsSection } from './components/projects/ProjectsSection';
+import { AuthorSection } from './components/author/AuthorSection';
 
 function App() {
   const { theme } = useTheme();
@@ -14,6 +15,7 @@ function App() {
         <ParticleCanvas theme={theme} />
       </Hero>
       <ProjectsSection />
+      <AuthorSection />
       <section id="contact" className="py-20 px-4 bg-gray-900">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">联系我</h2>
